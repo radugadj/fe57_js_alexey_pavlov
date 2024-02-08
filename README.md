@@ -1,1 +1,1 @@
-# fe57_js
+# JavaScript project
