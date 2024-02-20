@@ -57,12 +57,31 @@ let result = a.toString() + b.toString() + c;
 console.log(result); 
 
 // Задание 5
+let word1 = "морпех";
+let word2 = "наледь";
+let word3 = "попрек";
+let word4 = "рубило";
 
+let lengthWords = word1.length + word2.length + word3.length + word4.length;
+
+console.log("Общая длина слов:", lengthWords);
 
 
 // Задание 6
+let variable1 = "Hello";
+let variable2 = 42;
+let variable3 = true;
+
+console.log(`Variable: variable1 have type: ${typeof variable1}`);
+console.log(`Variable: variable2 have type: ${typeof variable2}`);
+console.log(`Variable: variable3 have type: ${typeof variable3}`);
 
 
 
 // Задание 7
 
+const name = prompt("Введите ваше имя:");
+let age = prompt("Введите ваш возраст:");
+
+console.log("Ваше имя: " + name);
+console.log("Ваш возраст: " + age);
